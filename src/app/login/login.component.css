@@ -1,0 +1,47 @@
+.surface-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  min-width: 400px;
+}
+
+.text-900 {
+  color: #2c3e50;
+}
+
+.text-600 {
+  color: #7f8c8d;
+}
+
+input {
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+label {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+:host ::ng-deep .p-button {
+  background-color: #3498db;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+:host ::ng-deep .p-button:hover {
+  background-color: #2980b9;
+}
+
+.shadow-2 {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
